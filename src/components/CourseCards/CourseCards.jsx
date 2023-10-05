@@ -39,7 +39,7 @@ const CourseCards = ({ cards }) => {
             </div>
             <div className="py-10 mx-auto">
                 <h3 className="text-3xl text-center font-semibold mb-10">All Courses</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto">
+                <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto">
                     {
                         myCard?.map(card => <SingleCard key={card.id} card={card}></SingleCard>)
                     }

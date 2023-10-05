@@ -5,7 +5,6 @@ const Home = () => {
     const cards = useLoaderData();
     return (
         <div>
-            <h3>Home</h3>
             <CourseCards cards={cards}></CourseCards>
         </div>
     );
