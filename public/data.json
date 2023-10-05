@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "title": "Introduction to Web Development",
+        "courseImage": "web-dev.jpg",
+        "universityName": "Tech University",
+        "rating": 4.8,
+        "price": 49.99,
+        "creditHour": 3,
+        "level": "Beginner"
+    },
+    {
+        "id": 2,
+        "title": "Machine Learning Fundamentals",
+        "courseImage": "machine-learning.jpg",
+        "universityName": "Data Science Institute",
+        "rating": 4.5,
+        "price": 79.99,
+        "creditHour": 4,
+        "level": "Intermediate"
+    },
+    {
+        "id": 3,
+        "title": "Digital Marketing Strategies",
+        "courseImage": "digital-marketing.jpg",
+        "universityName": "Marketing Academy",
+        "rating": 4.6,
+        "price": 59.99,
+        "creditHour": 2,
+        "level": "Intermediate"
+    },
+    {
+        "id": 4,
+        "title": "Financial Planning and Analysis",
+        "courseImage": "finance.jpg",
+        "universityName": "Finance School",
+        "rating": 4.9,
+        "price": 99.99,
+        "creditHour": 3,
+        "level": "Advanced"
+    },
+    {
+        "id": 5,
+        "title": "Artificial Intelligence Masterclass",
+        "courseImage": "ai.jpg",
+        "universityName": "AI Institute",
+        "rating": 4.7,
+        "price": 89.99,
+        "creditHour": 4,
+        "level": "Advanced"
+    },
+    {
+        "id": 6,
+        "title": "Mobile App Development with React Native",
+        "courseImage": "mobile-app.jpg",
+        "universityName": "Tech University",
+        "rating": 4.6,
+        "price": 69.99,
+        "creditHour": 3,
+        "level": "Intermediate"
+    },
+    {
+        "id": 7,
+        "title": "Data Science and Big Data Analytics",
+        "courseImage": "data-science.jpg",
+        "universityName": "Data Science Institute",
+        "rating": 4.8,
+        "price": 79.99,
+        "creditHour": 4,
+        "level": "Advanced"
+    },
+    {
+        "id": 8,
+        "title": "Graphic Design Fundamentals",
+        "courseImage": "graphic-design.jpg",
+        "universityName": "Design Academy",
+        "rating": 4.5,
+        "price": 49.99,
+        "creditHour": 2,
+        "level": "Beginner"
+    },
+    {
+        "id": 9,
+        "title": "Business Management Essentials",
+        "courseImage": "business.jpg",
+        "universityName": "Business School",
+        "rating": 4.7,
+        "price": 69.99,
+        "creditHour": 3,
+        "level": "Intermediate"
+    },
+    {
+        "id": 10,
+        "title": "Photography Masterclass",
+        "courseImage": "photography.jpg",
+        "universityName": "Photography Institute",
+        "rating": 4.6,
+        "price": 59.99,
+        "creditHour": 2,
+        "level": "Beginner"
+    },
+    {
+        "id": 11,
+        "title": "Cloud Computing and AWS Certification",
+        "courseImage": "cloud-computing.jpg",
+        "universityName": "Tech University",
+        "rating": 4.9,
+        "price": 89.99,
+        "creditHour": 4,
+        "level": "Advanced"
+    },
+    {
+        "id": 12,
+        "title": "UI/UX Design Principles",
+        "courseImage": "ui-ux.jpg",
+        "universityName": "Design Academy",
+        "rating": 4.7,
+        "price": 79.99,
+        "creditHour": 3,
+        "level": "Intermediate"
+    },
+    {
+        "id": 13,
+        "title": "Social Media Marketing Strategies",
+        "courseImage": "social-media.jpg",
+        "universityName": "Marketing Academy",
+        "rating": 4.8,
+        "price": 69.99,
+        "creditHour": 2,
+        "level": "Intermediate"
+    },
+    {
+        "id": 14,
+        "title": "Blockchain Technology and Cryptocurrency",
+        "courseImage": "blockchain.jpg",
+        "universityName": "Tech University",
+        "rating": 4.6,
+        "price": 99.99,
+        "creditHour": 4,
+        "level": "Advanced"
+    },
+    {
+        "id": 15,
+        "title": "Video Editing and Production",
+        "courseImage": "video-editing.jpg",
+        "universityName": "Media Institute",
+        "rating": 4.7,
+        "price": 59.99,
+        "creditHour": 3,
+        "level": "Intermediate"
+    },
+    {
+        "id": 16,
+        "title": "Project Management Fundamentals",
+        "courseImage": "project-management.jpg",
+        "universityName": "Business School",
+        "rating": 4.5,
+        "price": 49.99,
+        "creditHour": 2,
+        "level": "Beginner"
+    },
+    {
+        "id": 17,
+        "title": "Cybersecurity and Ethical Hacking",
+        "courseImage": "cybersecurity.jpg",
+        "universityName": "Tech University",
+        "rating": 4.9,
+        "price": 89.99,
+        "creditHour": 4,
+        "level": "Advanced"
+    },
+    {
+        "id": 18,
+        "title": "Music Production and Composition",
+        "courseImage": "music-production.jpg",
+        "universityName": "Music Academy",
+        "rating": 4.6,
+        "price": 69.99,
+        "creditHour": 3,
+        "level": "Intermediate"
+    },
+    {
+        "id": 19,
+        "title": "Art History and Appreciation",
+        "courseImage": "art-history.jpg",
+        "universityName": "Arts Institute",
+        "rating": 4.7,
+        "price": 59.99,
+        "creditHour": 2,
+        "level": "Beginner"
+    },
+    {
+        "id": 20,
+        "title": "Environmental Science and Conservation",
+        "courseImage": "environmental-science.jpg",
+        "universityName": "Science Institute",
+        "rating": 4.8,
+        "price": 79.99,
+        "creditHour": 4,
+        "level": "Advanced"
+    }
+]

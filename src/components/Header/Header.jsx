@@ -14,18 +14,13 @@ const Header = () => {
 
     const navLinks = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/register">Register</NavLink></li>
-        <li><NavLink to="/login">Login</NavLink></li>
-        {
-            user && <>
-                <li><NavLink to="/profile">Profile</NavLink></li>
-                <li><NavLink to="/dashboard">Dashboard</NavLink></li>
-            </>
-        }
+        <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+        <li><NavLink to="/courses">Courses</NavLink></li>
+        {!user && <li><NavLink to="/register">Register</NavLink></li>}
     </>
     return (
         <div>
-            <div className="navbar bg-base-100 justify-evenly">
+            <div className="navbar p-6 bg-base-100 justify-evenly">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -38,22 +33,22 @@ const Header = () => {
                     <a className="btn btn-ghost normal-case text-xl">Edu Tech</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                    <ul className="menu space-x-5 menu-horizontal px-1">
                         {navLinks}
                     </ul>
                 </div>
 
-                <div className="navbar-end">
+                <div className="navbar-end space-x-5">
                     {
                         user ? <>
-                            <span>{user.email}</span>
+                            <span>{user.displayName}</span>
+                            <button className="btn btn-neutral btn-sm px-4"><NavLink to="/profile">Profile</NavLink></button>
                             <a onClick={handleLogOut} className="btn btn-sm">Sign out</a>
                         </>
                             : <Link to="/login">
                                 <button className="btn btn-sm">Login</button>
                             </Link>
                     }
-
                 </div>
             </div>
         </div>

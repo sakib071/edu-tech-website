@@ -16,6 +16,20 @@ const Register = () => {
         const password = e.target.password.value;
         console.log(name, email, password);
 
+        setRegisterError('');
+        setSuccess('');
+
+        if (password.length < 6) {
+            setRegisterError('Password should be at least 6 characters or longer');
+            return;
+        }
+        else if (!/[A-Z]/.test(password)) {
+            setRegisterError('Your password should have at least one upper case characters.')
+            return;
+        }
+
+
+
         createUser(email, password)
             .then(result => {
                 console.log(result.user);
@@ -35,6 +49,7 @@ const Register = () => {
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl font-bold">Register now!</h1>
                     </div>
+                    
                     <div className="card flex-shrink-0 w-[70vw] max-w-sm shadow-2xl bg-base-100">
                         <form className="card-body" onSubmit={handleRegister}>
                             <div className="form-control">
